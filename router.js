@@ -208,4 +208,7 @@ router.get('/iqiyi/dongman/:id', require('./routes/iqiyi/dongman'));
 // sex
 router.get('/sex/pics', require('./routes/sex/rss'));
 
+// weibomn
+router.get('/weibomn/pics', require('./routes/weibomn/rss'));
+
 module.exports = router;
